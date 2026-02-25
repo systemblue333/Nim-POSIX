@@ -1,0 +1,27 @@
+import type_h
+
+const
+  O_ACCMODE*: cuint32 = 0x00000003
+  O_RDONLY*: cuint32 = 0x00000000
+  O_WRONLY*: cuint32 = 0x00000001
+  O_RDWR*: cuint32 = 0x00000002
+
+  O_CREAT*: cuint32 = 0x00000100
+  O_EXCL*: cuint32 = 0x00000200
+  O_NOCTTY*: cuint32 = 0x00000400
+  O_TRUNC*: cuint32 = 0x00001000
+  O_APPEND*: cuint32 = 0x00002000
+  O_NONBLOCK*: cuint32 = 0x00004000
+  O_DSYNC*: cuint32 = 0x00010000
+  FASYNC*: cuint32 = 0x00020000
+  O_DIRECT*: cuint32 = 0x00040000
+  O_LARGEFILE*: cuint32 = 0x00100000
+  O_DIRECTORY*: cuint32 = 0x00200000
+  O_NOFOLLOW*: cuint32 = 0x00400000
+  O_NOATIME*: cuint32 = 0x01000000
+  O_CLOEXEC*: cuint32 = 0x02000000
+
+  O_SYNC*: cuint32 = 0x04000000
+
+  O_PATH*: cuint32 = 0x10000000
+  O_TMPFILE*: cuint32 = 0x20000000
